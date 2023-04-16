@@ -1,0 +1,70 @@
+// $success : #a2d2ff;
+$input-border-color :#a2d2ff;
+$primary:#a2d2ff;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+.rank{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    min-width: 30px;
+    padding-right: 50px;
+}
+.movi{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    min-width: 30px;
+    padding-right: 55rem;
+}
+.yea{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    min-width: 30px;
+    padding-right: 5px;
+    padding-right: 5px;
+}
+img{
+    height: 100px;
+    display: inline;
+}
+.title {
+    font-size: 15px;
+    font-weight:40;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 70px;
+    
+  }
+  
+  .year {
+    font-size: 14px;
+    color: #999;
+    float: right;
+  }
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    header{
+        nav{
+            a{
+                font-family: 'Inspiration', cursive;
+                font-weight: 600;
+            }
+        }
+    }
+
+    main{
+        flex-grow: 1;
+        ol{
+            li{
+                border-bottom: 2px solid bisque;
+            }
+            
+        }
+    }
+}
